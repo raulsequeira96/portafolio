@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { ScrambleText } from "@/components/scramble-title";
 import type { PortfolioProject } from "@/data/projects";
 
@@ -41,6 +42,23 @@ export function ProjectCard({ project, index, scrambleTrigger }: ProjectCardProp
         style={visualStyle}
         aria-hidden="true"
       >
+        {project.previewImage ? (
+          <>
+            <Image
+              src={project.previewImage}
+              alt=""
+              fill
+              sizes="(max-width: 768px) 100vw, 33vw"
+              className="rounded-[0.7rem] object-cover object-top opacity-85"
+            />
+            <div
+              className="absolute inset-0 rounded-[0.7rem]"
+              style={{
+                background: `linear-gradient(165deg, ${project.accentFrom}22, rgba(9,9,11,0.06) 32%, rgba(9,9,11,0.58) 86%)`
+              }}
+            />
+          </>
+        ) : null}
         <div className="absolute right-3 top-3 rounded-full border border-zinc-400/30 bg-zinc-900/65 px-3 py-1">
           <ScrambleText
             as="span"

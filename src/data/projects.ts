@@ -6,6 +6,7 @@ export interface PortfolioProject {
   stack: string[];
   status: ProjectStatus;
   href?: string;
+  previewImage?: string;
   accentFrom: string;
   accentTo: string;
 }
@@ -18,6 +19,7 @@ export const projects: PortfolioProject[] = [
     stack: ["Webpack", "Module Federation", "React"],
     status: "active",
     href: "https://host-mf-colors-app.netlify.app/",
+    previewImage: "/projects/microfrontend-color.png",
     accentFrom: "#06b6d4",
     accentTo: "#6366f1"
   },
@@ -28,6 +30,7 @@ export const projects: PortfolioProject[] = [
     stack: ["React", "Redux", "TypeScript"],
     status: "active",
     href: "https://react-redux-app-v1.netlify.app/",
+    previewImage: "/projects/react-redux-tasks.png",
     accentFrom: "#22d3ee",
     accentTo: "#a855f7"
   },
@@ -38,6 +41,7 @@ export const projects: PortfolioProject[] = [
     stack: ["HTML5", "CSS3", "JavaScript"],
     status: "active",
     href: "https://fresquito-app.netlify.app/",
+    previewImage: "/projects/ecommerce-vanilla.png",
     accentFrom: "#34d399",
     accentTo: "#06b6d4"
   },
@@ -48,6 +52,7 @@ export const projects: PortfolioProject[] = [
     stack: ["React", "API Integration", "Filters UX"],
     status: "active",
     href: "https://cocktailstudio.netlify.app/",
+    previewImage: "/projects/cocktail-explorer.png",
     accentFrom: "#f472b6",
     accentTo: "#f59e0b"
   },
