@@ -27,7 +27,7 @@ export const projects: PortfolioProject[] = [
       "CRUD de tareas centrado en reducers sincronicos, acciones limpias y manejo de estado predecible en Redux.",
     stack: ["React", "Redux", "TypeScript"],
     status: "active",
-    href: "https://react-redux-tasks.vercel.app",
+    href: "https://react-redux-app-v1.netlify.app/",
     accentFrom: "#22d3ee",
     accentTo: "#a855f7"
   },
@@ -37,7 +37,7 @@ export const projects: PortfolioProject[] = [
       "Tienda online construida con HTML5, CSS3 y JavaScript puro, enfocada en rendimiento y UX ligera.",
     stack: ["HTML5", "CSS3", "JavaScript"],
     status: "active",
-    href: "https://ecommerce-vanilla.vercel.app",
+    href: "https://fresquito-app.netlify.app/",
     accentFrom: "#34d399",
     accentTo: "#06b6d4"
   },
@@ -47,7 +47,7 @@ export const projects: PortfolioProject[] = [
       "Explorador de cocteles con filtros avanzados, busquedas por ingredientes y descubrimiento visual de recetas.",
     stack: ["React", "API Integration", "Filters UX"],
     status: "active",
-    href: "https://cocktail-explorer.vercel.app",
+    href: "https://cocktailstudio.netlify.app/",
     accentFrom: "#f472b6",
     accentTo: "#f59e0b"
   },
